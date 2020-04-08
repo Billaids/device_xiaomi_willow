@@ -1157,14 +1157,14 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0-halimpl.so|d9ad45b11f3779ecac38f28ab3f1
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so|8b4756451c038042970bd57330801cb49f89e1f2
 
 # Display - hardware
-vendor/bin/hw/vendor.qti.hardware.display.allocator@1.0-service
-vendor/etc/init/vendor.qti.hardware.display.allocator@1.0-service.rc
+vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc
+vendor/lib64/vendor.qti.hardware.display.allocator@1.0.so
+vendor/bin/hw/vendor.qti.hardware.display.allocator-service
 vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib64/hw/gralloc.trinket.so
 vendor/lib64/hw/hwcomposer.trinket.so
 vendor/lib64/hw/memtrack.trinket.so
 vendor/lib64/libdisplaydebug.so
-vendor/lib64/libdisplayqos.so
 vendor/lib64/libdpps.so
 vendor/lib64/libgpu_tonemapper.so
 vendor/lib64/libgralloccore.so
@@ -1180,7 +1180,6 @@ vendor/lib/hw/gralloc.trinket.so
 vendor/lib/hw/hwcomposer.trinket.so
 vendor/lib/hw/memtrack.trinket.so
 vendor/lib/libdisplaydebug.so
-vendor/lib/libdisplayqos.so
 vendor/lib/libdpps.so
 vendor/lib/libgpu_tonemapper.so
 vendor/lib/libgralloccore.so
