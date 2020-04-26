@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_willow.mk
+    $(LOCAL_DIR)/derp_willow.mk
